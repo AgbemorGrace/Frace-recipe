@@ -107,6 +107,8 @@ function Meals() {
         {data && queriedData && data.length === 0 && queriedData.length === 0 && (
           <Text>No meals found</Text>
         )}
+        
+        
       </div>
     </div>
   );
