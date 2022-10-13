@@ -20,7 +20,7 @@ function Navbar() {
         <Link href="/savedMeals"> Saved List </Link> 
         </li>
         <li className='rounded-full p-2 px-3 hover:bg-orange-600'>
-          <Link href="/addrecipe">Add a Recipe</Link>
+          <Link href="/add-recipe">Add a Recipe</Link>
         </li>
         <li className='rounded-full p-2 px-3 hover:bg-orange-600'>
           <Link href="/">Log Out</Link>

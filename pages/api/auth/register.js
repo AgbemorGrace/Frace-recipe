@@ -4,6 +4,7 @@ import bcrypt from "bcryptjs";
 
 
 
+
  async function handler(req,res) {
     if (req.method !== "POST"){
         res.status(405).json({error: "Only Post method is not allowed"});
